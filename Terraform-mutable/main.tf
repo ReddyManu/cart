@@ -5,3 +5,7 @@ module "cart" {
   OD_INSTANCE_COUNT = var.OD_INSTANCE_COUNT
   SPOT_INSTANCE_COUNT = var.SPOT_INSTANCE_COUNT
 }
+
+output "INSTANCE_IDS" {
+  value = module.cart.INSTANCE_IDS
+}
