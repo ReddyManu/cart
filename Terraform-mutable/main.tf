@@ -1,3 +1,3 @@
 module "sample" {
-  source = "./module"
+  source = "git::https://github.com/ReddyManu/Terraform-mutable.git//app-module"
 }
